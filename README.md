@@ -16,7 +16,7 @@ Package description: CHANGE ME
 
 Install via composer
 ```bash
-composer require clover/cloud-image
+composer require skyhilam/clover-cloud-image
 ```
 
 ### Register Service Provider
@@ -48,7 +48,7 @@ CHANGE ME
 
 ## Security
 
-If you discover any security related issues, please email 
+If you discover any security related issues, please email
 instead of using the issue tracker.
 
 ## Credits

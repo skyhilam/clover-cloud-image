@@ -87,6 +87,6 @@ class CloudImage{
     public function get($filename, $params = [])
     {
         $string = empty($params)? '': '?'.http_build_query($params);
-        return $this->uri. $this->folder. '/'. $filename. $string;
+        return $this->uri.'/'. $this->folder. '/'. $filename. $string;
     }
 }
